@@ -14,7 +14,4 @@ class MainViewModel : ViewModel() {
     val _stateFlow : MutableStateFlow<String> = MutableStateFlow("")
     val stateFlow: StateFlow<String> = _stateFlow
 
-//    private val _names = MutableStateFlow<String?>(null)
-//    val names: StateFlow<String?> = _names
-//    val addedName = MutableStateFlow<String?>(null)
 }

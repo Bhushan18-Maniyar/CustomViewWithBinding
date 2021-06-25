@@ -13,8 +13,8 @@ class CustomEditText @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : LinearLayout(context, attrs, defStyleAttr), LifecycleObserver {
 
-    lateinit var edt: EditText
-    private lateinit var iv: ImageView
+    val edt: EditText
+    private val iv: ImageView
     private var typedArray: TypedArray? = null
 
     init {
